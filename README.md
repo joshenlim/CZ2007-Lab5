@@ -1,5 +1,4 @@
 # CZ2007 Lab 5 MSSQL Scripts
-<hr/>
 
 #### Schema Name: SSP4G4_Master
 
