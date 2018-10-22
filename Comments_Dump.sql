@@ -6,3 +6,5 @@ INSERT INTO Comments VALUES(1, 'Hoodie had holes in it! Terrible product!');
 INSERT INTO Comments VALUES(1, 'Shoes came in great condition, would purchase again.');
 INSERT INTO Comments VALUES(2, 'Loving my new Pureboost Shoes!');
 INSERT INTO Comments VALUES(10, 'The phone came in good condition.');
+INSERT INTO Comments VALUES(2, 'Once bitten twice shy, wouldn''t want to try.');
+INSERT INTO Comments VALUES(3, 'Will it be the same quality if I got it from Royal Sporting House?');

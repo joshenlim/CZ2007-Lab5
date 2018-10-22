@@ -1,0 +1,1 @@
+-- Price_History(product_name, shop_name, price, start_date, end_date)

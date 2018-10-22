@@ -47,8 +47,8 @@ CREATE TABLE Comments (
 --------------------------------------------------
 
 CREATE TABLE Comments_on_Comments (
-  child_comment_id INT NOT NULL,
   comment_id INT NOT NULL,
+  parent_comment_id INT NOT NULL,
   PRIMARY KEY (comment_id),
   FOREIGN KEY (comment_id) REFERENCES Comments(comment_id)
 );
@@ -85,13 +85,13 @@ CREATE TABLE Complaint_Staff (
 --------------------------------------------------
 
 CREATE TABLE Review (
-  created_at DATETIME NOT NULL DEFAULT(GETDATE()),
-  rating INT NOT NULL,
-  user_id INT NOT NULL,
   order_id INT NOT NULL,
-  comment_id INT NOT NULL,
+  user_id INT NOT NULL,
   product_name VARCHAR(100) NOT NULL,
   shop_name VARCHAR(100) NOT NULL,
+  rating INT NOT NULL,
+  comment_id INT NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT(GETDATE()),
   PRIMARY KEY (user_id, order_id, product_name, shop_name),
   FOREIGN KEY (user_id) REFERENCES Users(user_id),
   FOREIGN KEY (order_id) REFERENCES Orders(order_id),
@@ -130,11 +130,11 @@ CREATE TABLE Inventory (
 --------------------------------------------------
 
 CREATE TABLE Price_History (
-  end_date DATETIME NOT NULL,
-  price FLOAT NOT NULL,
-  start_date DATETIME NOT NULL,
   product_name VARCHAR(100) NOT NULL,
   shop_name VARCHAR(100) NOT NULL,
+  price FLOAT NOT NULL,
+  start_date DATETIME NOT NULL,
+  end_date DATETIME NOT NULL,
   PRIMARY KEY (start_date, product_name, shop_name),
   FOREIGN KEY (product_name) REFERENCES Products(product_name),
   FOREIGN KEY (shop_name) REFERENCES Shops(shop_name)
@@ -144,14 +144,14 @@ CREATE TABLE Price_History (
 
 CREATE TABLE Complaints (
   complaint_id INT IDENTITY(1,1),
-  status VARCHAR(100) NOT NULL,
-  description VARCHAR(300) NOT NULL,
-  created_at DATETIME NOT NULL DEFAULT(GETDATE()),
-  resolved_datetime DATETIME NOT NULL,
-  employee_id INT NOT NULL,
   user_id INT NOT NULL,
+  description VARCHAR(300) NOT NULL,
+  employee_id INT,
+  status VARCHAR(100) NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT(GETDATE()),
+  resolved_at DATETIME,
   PRIMARY KEY (complaint_id),
-  FOREIGN KEY (employee_id) REFERENCES Employee(employee_id),
+  FOREIGN KEY (employee_id) REFERENCES Complaint_Staff(employee_id),
   FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
 
