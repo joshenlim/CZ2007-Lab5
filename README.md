@@ -1,29 +1,27 @@
-Order to run the files in: (Master_DB_Dump is beta)
+# CZ2007 Lab 5 MSSQL Scripts
+<hr/>
 
-Create_DB
+Order to run the files in:
+- Create_DB
+- Employee
+- Complaint_Staff
+- Users
+- Products
+- Shops
+- Inventory
+- Orders
+- Order_Items
+- Comments
+- Comments_on_Comments
+- Comments_on_Products
+- Review
+- Complaints
+- Complaints_on_Comments
+- Complaints_on_Products
+- Complaints_on_Shops
+- Price_History
 
-Employee
-Complaint_Staff
-
-Users
-Products
-Shops
-Inventory
-
-Orders
-Order_Items
-
-Comments
-Comments_on_Comments
-Comments_on_Products
-Review
-
-Complaints
-Complaints_on_Comments
-Complaints_on_Products
-Complaints_on_Shops
-
-Price_History
+Alternatively, you can run Master_DB_Dump.sql directly instead.
 
 TODO: Create an npm script that takes all the SQL files and compiles them into a single master dump
 1. Employee (x)
@@ -42,4 +40,4 @@ TODO: Create an npm script that takes all the SQL files and compiles them into a
 14. Complaints_on_Comments (x)
 15. Complaints_on_Products (x)
 16. Complaints_on_Shops (x)
-17. Price_History 
+17. Price_History

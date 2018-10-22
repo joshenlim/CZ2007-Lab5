@@ -1,15 +1,15 @@
 -- Inventory(price, qty_in_stock, shop_name, product_name)
 
-INSERT INTO Inventory VALUES(1500, 500, 'Nubox', 'iPhone X');
-INSERT INTO Inventory VALUES(2000, 300, 'Nubox', 'iPhone XS');
-INSERT INTO Inventory VALUES(1800, 600, 'Nubox', 'Galaxy S9');
-INSERT INTO Inventory VALUES(1000, 200, 'Nubox', 'Galaxy S6');
-INSERT INTO Inventory VALUES(1500, 300, 'Nubox', 'Galaxy S7');
-INSERT INTO Inventory VALUES(1500, 200, 'iStudio', 'iPhone X');
-INSERT INTO Inventory VALUES(2050, 200, 'iStudio', 'iPhone XS');
-INSERT INTO Inventory VALUES(2550, 300, 'iStudio', 'iPhone XR');
-INSERT INTO Inventory VALUES(85, 250, 'Royal Sporting House', 'Ultraboost Shoes');
-INSERT INTO Inventory VALUES(50, 500, 'Royal Sporting House', 'KAVAL Hoodie');
-INSERT INTO Inventory VALUES(35, 400, 'Royal Sporting House', 'KAVAL Cap');
-INSERT INTO Inventory VALUES(105, 250, 'Adidas', 'Ultraboost Shoes');
-INSERT INTO Inventory VALUES(125, 200, 'Adidas', 'Pureboost RBL Shoes');
+INSERT INTO Inventory VALUES('Nubox', 'iPhone X', 300);
+INSERT INTO Inventory VALUES('Nubox', 'iPhone XS', 600);
+INSERT INTO Inventory VALUES('Nubox', 'Galaxy S9', 550);
+INSERT INTO Inventory VALUES('Nubox', 'Galaxy S7', 400);
+INSERT INTO Inventory VALUES('Nubox', 'Galaxy S6', 400);
+INSERT INTO Inventory VALUES('iStudio', 'iPhone X', 600);
+INSERT INTO Inventory VALUES('iStudio', 'iPhone XS', 350);
+INSERT INTO Inventory VALUES('iStudio', 'iPhone XR', 900);
+INSERT INTO Inventory VALUES('Royal Sporting House', 'Ultraboost Shoes', 250);
+INSERT INTO Inventory VALUES('Royal Sporting House', 'KAVAL Hoodie', 57);
+INSERT INTO Inventory VALUES('Royal Sporting House', 'KAVAL Cap', 84);
+INSERT INTO Inventory VALUES('Adidas', 'Ultraboost Shoes', 93);
+INSERT INTO Inventory VALUES('Adidas', 'Pureboost RBL Shoes', 85);

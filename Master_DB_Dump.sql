@@ -47,6 +47,7 @@ INSERT INTO Products VALUES('Pureboost RBL Shoes', 'Adidas', 'Sports Wear');
 INSERT INTO Products VALUES('Ultraboost Shoes', 'Adidas', 'Sports Wear');
 
 INSERT INTO Shops VALUES('Nubox', 'Singapore''s Apple Premium Reseller', 'Singapore');
+INSERT INTO Shops VALUES('AliMaMa', 'Your one stop shop for tech', 'China');
 INSERT INTO Shops VALUES('iStudio', 'Apple Premium Reseller for all Apple products', 'Singapore');
 INSERT INTO Shops VALUES('Singtel', 'Singapore''s largest mobile network opeartor', 'Singapore');
 INSERT INTO Shops VALUES('Adidas', 'Through sport, we have the power to change lives', 'Germany');
@@ -57,19 +58,20 @@ INSERT INTO Shops VALUES('Popular', 'Leading Bookstore Chain that publishes, dis
 INSERT INTO Shops VALUES('Watsons', 'Covering your healthcare and beauty needs', 'Hong Kong');
 INSERT INTO Shops VALUES('Guardian', 'Health and beauty brands online from Guardian', 'Singapore');
 
-INSERT INTO Inventory VALUES(1500, 500, 'Nubox', 'iPhone X');
-INSERT INTO Inventory VALUES(2000, 300, 'Nubox', 'iPhone XS');
-INSERT INTO Inventory VALUES(1800, 600, 'Nubox', 'Galaxy S9');
-INSERT INTO Inventory VALUES(1000, 200, 'Nubox', 'Galaxy S6');
-INSERT INTO Inventory VALUES(1500, 300, 'Nubox', 'Galaxy S7');
-INSERT INTO Inventory VALUES(1500, 200, 'iStudio', 'iPhone X');
-INSERT INTO Inventory VALUES(2050, 200, 'iStudio', 'iPhone XS');
-INSERT INTO Inventory VALUES(2550, 300, 'iStudio', 'iPhone XR');
-INSERT INTO Inventory VALUES(85, 250, 'Royal Sporting House', 'Ultraboost Shoes');
-INSERT INTO Inventory VALUES(50, 500, 'Royal Sporting House', 'KAVAL Hoodie');
-INSERT INTO Inventory VALUES(35, 400, 'Royal Sporting House', 'KAVAL Cap');
-INSERT INTO Inventory VALUES(105, 250, 'Adidas', 'Ultraboost Shoes');
-INSERT INTO Inventory VALUES(125, 200, 'Adidas', 'Pureboost RBL Shoes');
+INSERT INTO Inventory VALUES('AliMaMa', 'iPhone X', 500);
+INSERT INTO Inventory VALUES('Nubox', 'iPhone X', 300);
+INSERT INTO Inventory VALUES('Nubox', 'iPhone XS', 600);
+INSERT INTO Inventory VALUES('Nubox', 'Galaxy S9', 550);
+INSERT INTO Inventory VALUES('Nubox', 'Galaxy S6', 400);
+INSERT INTO Inventory VALUES('Nubox', 'Galaxy S7', 400);
+INSERT INTO Inventory VALUES('iStudio', 'iPhone X', 600);
+INSERT INTO Inventory VALUES('iStudio', 'iPhone XS', 350);
+INSERT INTO Inventory VALUES('iStudio', 'iPhone XR', 900);
+INSERT INTO Inventory VALUES('Royal Sporting House', 'Ultraboost Shoes', 250);
+INSERT INTO Inventory VALUES('Royal Sporting House', 'KAVAL Hoodie', 57);
+INSERT INTO Inventory VALUES('Royal Sporting House', 'KAVAL Cap', 84);
+INSERT INTO Inventory VALUES('Adidas', 'Ultraboost Shoes', 93);
+INSERT INTO Inventory VALUES('Adidas', 'Pureboost RBL Shoes', 85);
 
 INSERT INTO Orders(created_at, user_id) VALUES('2018-09-28 10:28:47.503', 1);
 INSERT INTO Orders(created_at, user_id) VALUES('2018-10-02 16:13:01.322', 1);
@@ -128,3 +130,89 @@ INSERT INTO Complaints_on_Products VALUES(2, 'Galaxy S6');
 INSERT INTO Complaints_on_Products VALUES(3, 'Pureboost RBL Shoes');
 
 INSERT INTO Complaints_on_Comments VALUES(4, 2);
+
+INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1759, '2018-01-26', '2018-03-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1659, '2018-03-26', '2018-05-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1699, '2018-05-26', '2018-07-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1619, '2018-07-26', '2018-09-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1569, '2018-09-26', '2018-11-26');
+
+INSERT INTO Price_History VALUES('Nubox', 'iPhone XS', 1859, '2018-01-26', '2018-03-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone XS', 1899, '2018-03-26', '2018-05-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone XS', 1699, '2018-05-26', '2018-07-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone XS', 1459, '2018-07-26', '2018-09-26');
+INSERT INTO Price_History VALUES('Nubox', 'iPhone XS', 1649, '2018-09-26', '2018-12-26');
+
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S9', 1359, '2018-01-26', '2018-03-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S9', 1399, '2018-03-26', '2018-05-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S9', 1158, '2018-05-26', '2018-07-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S9', 1299, '2018-07-26', '2018-09-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S9', 1198, '2018-09-26', '2018-12-26');
+
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S7', 1359, '2018-01-26', '2018-03-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S7', 1299, '2018-03-26', '2018-05-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S7', 1059, '2018-05-26', '2018-07-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S7', 1195, '2018-07-26', '2018-09-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S7', 1098, '2018-09-26', '2018-12-26');
+
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S6', 1129, '2018-01-26', '2018-03-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S6', 1059, '2018-03-26', '2018-05-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S6', 1150, '2018-05-26', '2018-07-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S6', 1095, '2018-07-26', '2018-09-26');
+INSERT INTO Price_History VALUES('Nubox', 'Galaxy S6', 998, '2018-09-26', '2018-12-26');
+
+INSERT INTO Price_History VALUES('iStudio', 'iPhone X', 1659, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone X', 1500, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone X', 1459, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone X', 1698, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone X', 1550, '2018-08-01', '2018-08-31');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone X', 1569, '2018-08-31', '2018-11-26');
+
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XS', 1599, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XS', 1589, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XS', 1600, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XS', 1559, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XS', 1599, '2018-08-01', '2018-08-31');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XS', 1699, '2018-08-31', '2018-11-26');
+
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1759, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1799, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1829, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1859, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1799, '2018-08-01', '2018-08-31');
+INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1899, '2018-08-31', '2018-11-26');
+
+INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 265, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 255, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 239, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 250, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 280, '2018-08-01', '2018-09-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 210, '2018-09-01', '2018-11-01');
+
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Hoodie', 155, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Hoodie', 165, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Hoodie', 140, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Hoodie', 150, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Hoodie', 135, '2018-08-01', '2018-09-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Hoodie', 125, '2018-09-01', '2018-11-01');
+
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Cap', 36, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Cap', 38, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Cap', 40, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Cap', 33, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Cap', 30, '2018-08-01', '2018-09-01');
+INSERT INTO Price_History VALUES('Royal Sporting House', 'KAVAL Cap', 35, '2018-09-01', '2018-11-01');
+
+INSERT INTO Price_History VALUES('Adidas', 'Ultraboost Shoes', 231, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('Adidas', 'Ultraboost Shoes', 240, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('Adidas', 'Ultraboost Shoes', 245, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('Adidas', 'Ultraboost Shoes', 255, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('Adidas', 'Ultraboost Shoes', 260, '2018-08-01', '2018-09-01');
+INSERT INTO Price_History VALUES('Adidas', 'Ultraboost Shoes', 230, '2018-09-01', '2018-11-01');
+
+INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 158, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 162, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 155, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 145, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 165, '2018-08-01', '2018-09-01');
+INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 150, '2018-09-01', '2018-11-01');

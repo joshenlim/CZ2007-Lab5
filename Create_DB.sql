@@ -117,11 +117,9 @@ CREATE TABLE Order_Items (
 --------------------------------------------------
 
 CREATE TABLE Inventory (
-  -- Possible update anomaly between Inventory and Price_History
-  price FLOAT NOT NULL,
-  qty_in_stock INT NOT NULL,
   shop_name VARCHAR(100) NOT NULL,
   product_name VARCHAR(100) NOT NULL,
+  qty_in_stock INT NOT NULL,
   PRIMARY KEY (shop_name, product_name),
   FOREIGN KEY (shop_name) REFERENCES Shops(shop_name),
   FOREIGN KEY (product_name) REFERENCES Products(product_name)
@@ -130,11 +128,11 @@ CREATE TABLE Inventory (
 --------------------------------------------------
 
 CREATE TABLE Price_History (
-  product_name VARCHAR(100) NOT NULL,
   shop_name VARCHAR(100) NOT NULL,
+  product_name VARCHAR(100) NOT NULL,
   price FLOAT NOT NULL,
-  start_date DATETIME NOT NULL,
-  end_date DATETIME NOT NULL,
+  start_date DATE NOT NULL,
+  end_date DATE NOT NULL,
   PRIMARY KEY (start_date, product_name, shop_name),
   FOREIGN KEY (product_name) REFERENCES Products(product_name),
   FOREIGN KEY (shop_name) REFERENCES Shops(shop_name)
