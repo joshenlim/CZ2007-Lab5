@@ -1,6 +1,8 @@
 -- Price_History(shop_name, product_name, price, start_date, end_date)
 -- start_date, end_date : yyyy-mm-dd
 
+-- JR: Added Samsung S9, S7 and S6 into iStudio catalog
+
 INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1759, '2018-01-26', '2018-03-26');
 INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1659, '2018-03-26', '2018-05-26');
 INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1699, '2018-05-26', '2018-07-26');
@@ -51,6 +53,27 @@ INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1829, '2018-05-01', '20
 INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1859, '2018-06-01', '2018-08-01');
 INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1799, '2018-08-01', '2018-08-31');
 INSERT INTO Price_History VALUES('iStudio', 'iPhone XR', 1899, '2018-08-31', '2018-11-26');
+
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S9', 1359, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S9', 1344, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S9', 1200, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S9', 1240, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S9', 1222, '2018-08-01', '2018-08-31');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S9', 1110, '2018-08-31', '2018-11-26');
+
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S7', 1350, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S7', 1294, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S7', 1199, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S7', 1040, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S7', 1180, '2018-08-01', '2018-08-31');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S7', 1050, '2018-08-31', '2018-11-26');
+
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S6', 1130, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S6', 1100, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S6', 1199, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S6', 1001, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S6', 1080, '2018-08-01', '2018-08-31');
+INSERT INTO Price_History VALUES('iStudio', 'Galaxy S6', 999, '2018-08-31', '2018-11-26');
 
 INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 265, '2018-01-01', '2018-03-01');
 INSERT INTO Price_History VALUES('Royal Sporting House', 'Ultraboost Shoes', 255, '2018-03-01', '2018-05-01');

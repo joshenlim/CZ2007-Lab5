@@ -3,6 +3,9 @@
 -- status: BEING_PROCESSED / SHIPPED / DELIVERED / RETURNED
 -- delivery_date > order.created_at
 
+-- JR's self note: Fill in int value and delivery_date
+-- Added additional 11 order_items, mostly on Samsung products and Iphone
+
 INSERT INTO Order_Items VALUES(1, 'DELIVERED', '2018-10-02 12:31:42.102', 'Nubox', 'iPhone XS');
 INSERT INTO Order_Items VALUES(1, 'RETURNED', '2018-10-05 13:05:41.602', 'Royal Sporting House', 'KAVAL Hoodie');
 INSERT INTO Order_Items VALUES(2, 'SHIPPED', NULL, 'Nubox', 'Galaxy S9');
@@ -12,3 +15,14 @@ INSERT INTO Order_Items VALUES(3, 'SHIPPED', NULL, 'Royal Sporting House', 'Ultr
 INSERT INTO Order_Items VALUES(4, 'SHIPPED', NULL, 'Royal Sporting House', 'KAVAL Cap');
 INSERT INTO Order_Items VALUES(5, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(5, 'DELIVERED', '2018-10-22 09:23:54.353', 'Nubox', 'Galaxy S6');
+INSERT INTO Order_Items VALUES(, 'DELIVERED', 'iStudio', 'iPhone XS');
+INSERT INTO Order_Items VALUES(, 'DELIVERED', 'NuBox', 'Galaxy S7');
+INSERT INTO Order_Items VALUES(, 'SHIPPED', NULL, 'NuBox', 'Galaxy S7');
+INSERT INTO Order_Items VALUES(, 'SHIPPED', NULL, 'NuBox', 'iPhone XS');
+INSERT INTO Order_Items VALUES(, 'BEING_PROCESSED', NULL, 'iStudio', 'Galaxy S6');
+INSERT INTO Order_Items VALUES(, 'DELIVERED', '', 'iStudio', 'Galaxy S9');
+INSERT INTO Order_Items VALUES(, 'SHIPPED', NULL, 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(, 'RETURNED', '', 'iStudio', 'iPhone X');
+INSERT INTO Order_Items VALUES(, 'DELIVERED', '', 'Nubox', 'iPhone XS');
+INSERT INTO Order_Items VALUES(, 'DELIVERED', '', 'Nubox', 'iPhone XS');
+INSERT INTO Order_Items VALUES(, 'DELIVERED', '', 'iStudio', 'iPhone X');
