@@ -13,33 +13,21 @@ INSERT INTO Products VALUES('Galaxy S9', 'Samsung', 'Mobile Phone');
 INSERT INTO Products VALUES('Galaxy S8', 'Samsung', 'Mobile Phone');
 INSERT INTO Products VALUES('Galaxy S7', 'Samsung', 'Mobile Phone');
 INSERT INTO Products VALUES('Galaxy S6', 'Samsung', 'Mobile Phone');
+
 INSERT INTO Products VALUES('KAVAL Hoodie', 'Adidas', 'Sports Wear');
 INSERT INTO Products VALUES('KAVAL Cap', 'Adidas', 'Sports Wear');
 INSERT INTO Products VALUES('Pureboost RBL Shoes', 'Adidas', 'Sports Wear');
 INSERT INTO Products VALUES('Ultraboost Shoes', 'Adidas', 'Sports Wear');
-INSERT INTO Products VALUES('Lenovo X1 Carbon','Lenovo','Laptop');
-INSERT INTO Products VALUES('Lenovo X1 Extreme','Lenovo','Laptop');
+
 INSERT INTO Products VALUES('Quickdrive Washing Machine','Samsung','Home Appliances');
 INSERT INTO Products VALUES('Ecobubble Washing Machine','Samsung','Home Appliances');
-INSERT INTO Products VALUES('Wide Screen TV','Samsung','Home Appliances');
-INSERT INTO Products VALUES('QLED TV','Samsung','Home Appliances');
-INSERT INTO Products VALUES('HD TV','Samsung','Home Appliances');
-INSERT INTO Products VALUES('HD 4K TV','Samsung','Home Appliances');
-INSERT INTO Products VALUES('Razer Mamba Wireless','Razer','Mouse');
-INSERT INTO Products VALUES('Razer Mamba Elite','Razer','Mouse');
-INSERT INTO Products VALUES('Grey Oversized T-Shirt','Uniqlo','Apparel');
-INSERT INTO Products VALUES('Winter Jacket','Uniqlo','Apparel');
-INSERT INTO Products VALUES('Maroon V Cap','Uniqlo','Accessories');
-INSERT INTO Products VALUES('Blue/White Striped Socks','Uniqlo','Accessories');
-INSERT INTO Products VALUES('Red/White Striped Socks','Uniqlo','Accesories');
-INSERT INTO Products VALUES('Blue/Brown Checkered Socks','Uniqlo','Accessories');
-INSERT INTO Products VALUES('Nike RN 2017','Nike','Sports Wear');
-INSERT INTO Products VALUES('6-in-1 Bundle Socks','H&M','Accessories');
-INSERT INTO Products VALUES('Bracelet #1228','H&M','Accessories');
-INSERT INTO Products VALUES('Bracelet #1229','H&M','Accessories');
-INSERT INTO Products VALUES('Necklace #2337','H&M','Accessories');
-INSERT INTO Products VALUES('Necklace #2338','H&M','Accessories');
-INSERT INTO Products VALUES('Red Logo T-Shirt','Superdry','Apparel');
-INSERT INTO Products VALUES('Blue Logo T-Shirt','Superdry','Apparel');
-INSERT INTO Products VALUES('Vintage Orignal Black T-Shirt','Superdry','Apparel');
+
+INSERT INTO Products VALUES('iPhone X', 'Phone Buy', 'Mobile Phone');
+INSERT INTO Products VALUES('iPhone XS', 'Phone Buy', 'Mobile Phone');
+INSERT INTO Products VALUES('iPhone XR', 'Phone Buy', 'Mobile Phone');
+
+INSERT INTO Products VALUES('iPhone X', 'iChallenger', 'Mobile Phone');
+INSERT INTO Products VALUES('iPhone XS', 'iChallenger', 'Mobile Phone');
+INSERT INTO Products VALUES('iPhone XR', 'iChallenger', 'Mobile Phone');
+
 
