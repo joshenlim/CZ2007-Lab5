@@ -23,3 +23,4 @@ INSERT INTO Employee VALUES('Unica', 3600.00);
 INSERT INTO Employee VALUES('Veronica', 3700.00);
 INSERT INTO Employee VALUES('William', 3800.00);
 INSERT INTO Employee VALUES('Xander', 3750.00);
+INSERT INTO Employee VALUES('Zenia', 3790.00);
