@@ -1,5 +1,7 @@
 -- Inventory(price, qty_in_stock, shop_name, product_name)
 
+-- JR: Added Galaxy S9, S7 and S6 into iStudio Inventory
+
 INSERT INTO Inventory VALUES('Nubox', 'iPhone X', 300);
 INSERT INTO Inventory VALUES('Nubox', 'iPhone XS', 600);
 INSERT INTO Inventory VALUES('Nubox', 'Galaxy S9', 550);
