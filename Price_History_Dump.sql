@@ -1,8 +1,6 @@
 -- Price_History(shop_name, product_name, price, start_date, end_date)
 -- start_date, end_date : yyyy-mm-dd
 
--- JR: Added Samsung S9, S7 and S6 into iStudio catalog
-
 INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1759, '2018-01-26', '2018-03-26');
 INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1659, '2018-03-26', '2018-05-26');
 INSERT INTO Price_History VALUES('Nubox', 'iPhone X', 1699, '2018-05-26', '2018-07-26');
