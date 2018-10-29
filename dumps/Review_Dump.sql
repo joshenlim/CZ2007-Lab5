@@ -1,5 +1,8 @@
 -- Review(order_id, user_id, product_name, shop_name, rating, comment_id, created_at)
 
+/* Breaking here, same reasoning for orders_item, under same order and user id, only one product*/
+/* Remove duplicates */
+
 --JR: Rating randomly generated in the following probability: P[1, 2, 3, 4, 5] = [0.1, 0.05, 0.05, 0.05, 0.75]
 --order_id = 1, user_id = 1 with created_at date of 2018-6-1
 INSERT INTO Review VALUES(1, 1, 'Quickdrive Washing Machine', 'Family House', 2, 1, '2018-06-18 04:09:22.401');

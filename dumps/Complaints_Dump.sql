@@ -11,7 +11,7 @@ INSERT INTO Complaints VALUES(9, 'Nubox seems to be selling their products at a 
 INSERT INTO Complaints VALUES(12, 'Packaging came damaged and unsatifactory', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
 INSERT INTO Complaints VALUES(14, 'Store sent the wrong item!!!', 1, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-06 16:02:12.101');
 INSERT INTO Complaints VALUES(15, 'False advertising: item was not as described', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
-INSERT INTO Complaints VALUES(12 'defective goods, reported', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
+INSERT INTO Complaints VALUES(12, 'defective goods, reported', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);
 INSERT INTO Complaints VALUES(13, 'Item sent is a imitation product, help please', 1, 'ADDRESSED', '2018-10-05 12:10:20.123', '2018-10-05 16:02:12.101');
 INSERT INTO Complaints VALUES(3, 'I got charged a higher amount then the price reflected on the store', 13, 'BEING_HANDLED', '2018-10-05 12:10:20.123', NULL);
 INSERT INTO Complaints VALUES(5, 'The discount code did not work!!!', NULL, 'PENDING', '2018-10-05 12:10:20.123', NULL);

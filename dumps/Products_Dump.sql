@@ -21,13 +21,3 @@ INSERT INTO Products VALUES('Ultraboost Shoes', 'Adidas', 'Sports Wear');
 
 INSERT INTO Products VALUES('Quickdrive Washing Machine','Samsung','Home Appliances');
 INSERT INTO Products VALUES('Ecobubble Washing Machine','Samsung','Home Appliances');
-
-INSERT INTO Products VALUES('iPhone X', 'Apple', 'Mobile Phone');
-INSERT INTO Products VALUES('iPhone XS', 'Apple', 'Mobile Phone');
-INSERT INTO Products VALUES('iPhone XR', 'Apple', 'Mobile Phone');
-
-INSERT INTO Products VALUES('iPhone X', 'Apple', 'Mobile Phone');
-INSERT INTO Products VALUES('iPhone XS', 'Apple', 'Mobile Phone');
-INSERT INTO Products VALUES('iPhone XR', 'Apple', 'Mobile Phone');
-
-

@@ -87,19 +87,19 @@ INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 145, '2018-06-
 INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 165, '2018-08-01', '2018-09-01');
 INSERT INTO Price_History VALUES('Adidas', 'Pureboost RBL Shoes', 150, '2018-09-01', '2018-11-01');
 
-INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing', 999, '2018-01-01', '2018-03-01');
-INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing', 949, '2018-03-01', '2018-05-01');
-INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing', 919, '2018-05-01', '2018-06-01');
-INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing', 939, '2018-06-01', '2018-08-01');
-INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing', 899, '2018-08-01', '2018-09-01');
-INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing', 799, '2018-09-01', '2018-11-01');
+INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing Machine', 999, '2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing Machine', 949, '2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing Machine', 919, '2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing Machine', 939, '2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing Machine', 899, '2018-08-01', '2018-09-01');
+INSERT INTO Price_History VALUES('Family House', 'Quickdrive Washing Machine', 799, '2018-09-01', '2018-11-01');
 
-INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing', 1199,'2018-01-01', '2018-03-01');
-INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing', 1100,'2018-03-01', '2018-05-01');
-INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing', 1129,'2018-05-01', '2018-06-01');
-INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing', 1111,'2018-06-01', '2018-08-01');
-INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing', 999,'2018-08-01', '2018-09-01');
-INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing', 1099,'2018-09-01', '2018-11-01');
+INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing Machine', 1199,'2018-01-01', '2018-03-01');
+INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing Machine', 1100,'2018-03-01', '2018-05-01');
+INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing Machine', 1129,'2018-05-01', '2018-06-01');
+INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing Machine', 1111,'2018-06-01', '2018-08-01');
+INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing Machine', 999,'2018-08-01', '2018-09-01');
+INSERT INTO Price_History VALUES('Family House', 'Ecobubble Washing Machine', 1099,'2018-09-01', '2018-11-01');
 
 INSERT INTO Price_History VALUES('Phone Buy', 'iPhone X', 1699, '2018-01-01', '2018-03-01');
 INSERT INTO Price_History VALUES('Phone Buy', 'iPhone X', 1599, '2018-03-01', '2018-05-01');
