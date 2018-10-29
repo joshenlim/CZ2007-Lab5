@@ -87,8 +87,8 @@ CREATE TABLE Complaint_Staff (
 CREATE TABLE Review (
   order_id INT NOT NULL,
   user_id INT NOT NULL,
-  product_name VARCHAR(100) NOT NULL,
   shop_name VARCHAR(100) NOT NULL,
+  product_name VARCHAR(100) NOT NULL,
   rating INT NOT NULL,
   comment_id INT NOT NULL,
   created_at DATETIME NOT NULL DEFAULT(GETDATE()),
