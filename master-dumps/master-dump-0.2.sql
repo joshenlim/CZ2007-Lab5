@@ -887,17 +887,6 @@ INSERT INTO Comments_on_Comments VALUES(7, 4);
 INSERT INTO Comments_on_Comments VALUES(8, 10);
 INSERT INTO Comments_on_Comments VALUES(13, 15);
 
-INSERT INTO Comments_on_Products VALUES(1, 'iPhone XS', 'Nubox');
-INSERT INTO Comments_on_Products VALUES(2, 'KAVAL Hoodie', 'Royal Sporting House');
-INSERT INTO Comments_on_Products VALUES(3, 'Ultraboost Shoes', 'Adidas');
-INSERT INTO Comments_on_Products VALUES(4, 'Pureboost RBL Shoes', 'Adidas');
-INSERT INTO Comments_on_Products VALUES(5, 'Galaxy S6', 'Nubox');
-INSERT INTO Comments_on_Products VALUES(6, 'Quickdrive Washing Machine', 'Family House');
-INSERT INTO Comments_on_Products VALUES(7, 'iPhone X', 'iStudio');
-INSERT INTO Comments_on_Products VALUES(8, 'Ecobubble Washing Machine', 'Family House');
-INSERT INTO Comments_on_Products VALUES(9, 'KAVAL Cap', 'Royal Sporting House');
-INSERT INTO Comments_on_Products VALUES(10, 'Ecobubble Washing Machine', 'Family House');
-
 INSERT INTO Review VALUES(1, 1, 'iStudio', 'iPhone X', 5, 1, '2018-06-13 23:23:09.399');
 INSERT INTO Review VALUES(1, 1, 'iStudio', 'iPhone XS', 5, 2, '2018-06-06 02:57:56.384');
 INSERT INTO Review VALUES(1, 1, 'iStudio', 'iPhone XR', 3, 3, '2018-06-05 04:12:31.442');

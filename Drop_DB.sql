@@ -1,6 +1,5 @@
 -- In this Order to satisfy FKs
 DROP TABLE dbo.Comments_on_Comments;
-DROP TABLE dbo.Comments_on_Products;
 DROP TABLE dbo.Inventory;
 DROP TABLE dbo.Complaints_on_Comments;
 DROP TABLE dbo.Complaints_on_Products;
