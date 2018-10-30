@@ -1,4 +1,4 @@
--- Comments_on_Products(comment_id, product_name, shop_name)
+-- Comments_on_Products(comment_id, shop_name, product_name)
 
 -- INSERT INTO Comments_on_Products VALUES(1, 'iPhone XS', 'Nubox');
 -- INSERT INTO Comments_on_Products VALUES(2, 'KAVAL Hoodie', 'Royal Sporting House');

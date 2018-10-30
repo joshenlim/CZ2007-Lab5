@@ -58,8 +58,8 @@ CREATE TABLE Comments_on_Comments (
 
 CREATE TABLE Comments_on_Products (
   comment_id INT NOT NULL,
-  product_name VARCHAR(100) NOT NULL,
   shop_name VARCHAR(100) NOT NULL,
+  product_name VARCHAR(100) NOT NULL,
   PRIMARY KEY (comment_id),
   FOREIGN KEY (comment_id) REFERENCES Comments(comment_id),
   FOREIGN KEY (product_name) REFERENCES Products(product_name),

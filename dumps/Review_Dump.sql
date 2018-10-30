@@ -1,4 +1,4 @@
--- Review(order_id, user_id, product_name, shop_name, rating, comment_id, created_at)
+-- Review(order_id, user_id, shop_name, product_name, rating, comment_id, created_at)
 
 /* Breaking here, same reasoning for orders_item, under same order and user id, only one product*/
 /* Remove duplicates */
