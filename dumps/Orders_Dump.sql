@@ -96,3 +96,48 @@ INSERT INTO Orders(created_at, user_id) VALUES('2018-08-20 17:16:57.597', 19);
 INSERT INTO Orders(created_at, user_id) VALUES('2018-08-21 21:34:17.166', 19);
 INSERT INTO Orders(created_at, user_id) VALUES('2018-08-22 03:06:20.540', 19);
 INSERT INTO Orders(created_at, user_id) VALUES('2018-08-23 10:59:37.393', 19);
+
+--user_id = 1 make 10 orders (from order_id = 70 to 79)
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-13 18:48:04.729', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-14 12:51:09.676', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-15 23:08:26.565', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-16 16:41:20.962', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-17 13:49:48.021', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-18 00:23:01.292', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-19 05:38:34.534', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-20 05:25:20.221', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-21 16:33:04.375', 1);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-22 12:35:36.611', 1);
+--user_id = 2 make 10 orders (from order_id = 80 to 89)
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-10 17:50:06.050', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-11 11:07:07.951', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-12 06:35:22.650', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-13 04:26:16.648', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-14 08:45:07.089', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-15 07:17:40.305', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-16 04:28:03.059', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-17 08:48:25.01', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-18 04:50:29.955', 2);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-19 07:19:52.727', 2);
+--user_id = 3 make 10 orders (from order_id = 90 to 99)
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-09 09:13:07.850', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-10 05:03:08.264', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-11 22:26:42.361', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-12 09:28:14.521', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-13 05:25:39.580', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-14 03:28:43.307', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-15 00:36:40.615', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-16 08:56:06.888', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-17 22:22:25.453', 3);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-18 02:32:40.105', 3);
+--user_id = 4 make 10 orders (from order_id = 100 to 109)
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-07 22:13:04.337', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-08 11:31:13.779', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-09 13:30:01.450', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-10 14:32:09.134', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-11 10:59:24.334', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-12 19:06:40.411', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-13 18:26:36.625', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-14 13:17:18.185', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-15 04:11:52.644', 4);
+INSERT INTO Orders(created_at, user_id) VALUES('2018-08-16 20:14:07.389', 4);
