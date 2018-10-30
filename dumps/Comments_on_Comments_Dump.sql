@@ -1,6 +1,7 @@
 -- Comments_on_Comments(comment_id, parent_comment_id)
 
-INSERT INTO Comments_on_Comments VALUES(1, 391);
-INSERT INTO Comments_on_Comments VALUES(10, 392);
-INSERT INTO Comments_on_Comments VALUES(20, 393);
-INSERT INTO Comments_on_Comments VALUES(30, 394);
+/* Add more, min 10 rows */
+INSERT INTO Comments_on_Comments VALUES(391, 1);
+INSERT INTO Comments_on_Comments VALUES(392, 10);
+INSERT INTO Comments_on_Comments VALUES(393, 20);
+INSERT INTO Comments_on_Comments VALUES(394, 30);

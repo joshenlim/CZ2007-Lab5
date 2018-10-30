@@ -1,6 +1,7 @@
--- Comments(comment_id, order_id, description)
+-- Comments(comment_id, user_id, description)
 -- Only have comments for each delivered/returned item
 
+/* Change order_ids to user_ids*/
 INSERT INTO Comments VALUES(1, 'Item in great condition as always.');--conc
 INSERT INTO Comments VALUES(1, 'Good to know, thanks mate');
 INSERT INTO Comments VALUES(1, 'Great!');
@@ -391,11 +392,7 @@ INSERT INTO Comments VALUES(69, 'Item came late');
 INSERT INTO Comments VALUES(69, 'Item came on time');
 INSERT INTO Comments VALUES(69, 'Item was good');
 INSERT INTO Comments VALUES(69, 'I like the item');
-
 INSERT INTO Comments VALUES(69, 'Yep definitely a good buy');
 INSERT INTO Comments VALUES(69, 'Worth noting');
 INSERT INTO Comments VALUES(69, 'Worth considering');
 INSERT INTO Comments VALUES(69, 'Maybe it is not what it seems like');
-
-
-
