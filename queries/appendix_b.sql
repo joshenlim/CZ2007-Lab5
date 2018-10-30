@@ -34,13 +34,7 @@ C.resolved_at)) AS Avg_Latency
 WHERE	E.employee_id = Latency.employee_id;
 
 -- Question 5
-SELECT	product_name AS "Product"
-FROM	Products
-WHERE	maker LIKE 'Samsung'
-
-SELECT	P.product_name AS "Product", COUNT(I.product_name) AS "No of Shops"
-FROM	Products P
-LEFT JOIN	Inventory I
-ON		P.product_name = I.product_name
-WHERE	maker LIKE 'Samsung'
-GROUP BY	P.product_name
+SELECT pd.product_name, COUNT(shop_name) AS numer_of_shops
+FROM (products pd LEFT JOIN Inventory INV ON pd.product_name = INV.product_name)
+WHERE maker = 'samsung'
+GROUP BY pd.product_name
