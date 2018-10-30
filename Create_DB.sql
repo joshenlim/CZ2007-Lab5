@@ -2,7 +2,7 @@
 CREATE TABLE Users (
   user_id INT IDENTITY(1,1),
   name VARCHAR(100) NOT NULL,
-  membership_type VARCHAR(100) NOT NULL,
+  membership_type VARCHAR(100) DEFAULT 'Bronze',
   PRIMARY KEY (user_id)
 );
 
@@ -20,7 +20,7 @@ CREATE TABLE Orders (
 
 CREATE TABLE Shops (
   shop_name VARCHAR(100) NOT NULL,
-  description VARCHAR(300) NOT NULL,
+  description VARCHAR(300),
   country VARCHAR(100) NOT NULL,
   PRIMARY KEY (shop_name)
 );
@@ -39,7 +39,7 @@ CREATE TABLE Products (
 CREATE TABLE Comments (
   comment_id INT IDENTITY(1,1),
   user_id INT NOT NULL,
-  description VARCHAR(300) NOT NULL,
+  description VARCHAR(300),
   PRIMARY KEY (comment_id),
   FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
@@ -50,7 +50,8 @@ CREATE TABLE Comments_on_Comments (
   comment_id INT NOT NULL,
   parent_comment_id INT NOT NULL,
   PRIMARY KEY (comment_id),
-  FOREIGN KEY (comment_id) REFERENCES Comments(comment_id)
+  FOREIGN KEY (comment_id) REFERENCES Comments(comment_id),
+  FOREIGN KEY (parent_comment_id) REFERENCES Comments(comment_id)
 );
 
 --------------------------------------------------
@@ -70,7 +71,7 @@ CREATE TABLE Comments_on_Products (
 CREATE TABLE Employee (
   employee_id INT IDENTITY(1,1),
   name VARCHAR(100) NOT NULL,
-  salary FLOAT NOT NULL,
+  salary FLOAT DEFAULT 0,
   PRIMARY KEY (employee_id)
 );
 
@@ -104,7 +105,7 @@ CREATE TABLE Review (
 
 CREATE TABLE Order_Items (
   order_id INT NOT NULL,
-  status VARCHAR(100) NOT NULL,
+  status VARCHAR(100) DEFAULT 'PENDING',
   delivery_date DATETIME,
   shop_name VARCHAR(100) NOT NULL,
   product_name VARCHAR(100) NOT NULL,
@@ -145,7 +146,7 @@ CREATE TABLE Complaints (
   user_id INT NOT NULL,
   description VARCHAR(300) NOT NULL,
   employee_id INT,
-  status VARCHAR(100) NOT NULL,
+  status VARCHAR(100) NOT NULL DEFAULT 'PENDING',
   created_at DATETIME NOT NULL DEFAULT(GETDATE()),
   resolved_at DATETIME,
   PRIMARY KEY (complaint_id),
