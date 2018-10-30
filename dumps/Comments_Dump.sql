@@ -1,4 +1,4 @@
--- Comments(comment_id, order_id, description)
+-- Comments(comment_id, user_id, description)
 -- Only have comments for each delivered/returned item
 -- user_id 1 and user_id 13 to 19 has 20 comments each
 -- user_id 2 to 8 has 10 comments each
