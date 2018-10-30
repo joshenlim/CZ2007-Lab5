@@ -953,6 +953,12 @@ INSERT INTO Order_Items VALUES(109, 'DELIVERED', '2018-08-23 15:28:27.430', 'iSt
 INSERT INTO Order_Items VALUES(109, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(109, 'DELIVERED', '2018-08-29 05:28:04.775', 'Phone Buy', 'iPhone X');
 
+-- Comments(comment_id, user_id, description)
+-- Only have comments for each delivered/returned item
+-- user_id 1 and user_id 13 to 19 has 20 comments each
+-- user_id 2 to 8 has 10 comments each
+-- user_id 9 to 12 has 40 comments each
+
 INSERT INTO Comments VALUES(1, 'Item in great condition as always.');--conc 1
 INSERT INTO Comments VALUES(1, 'Good to know, thanks mate');
 INSERT INTO Comments VALUES(1, 'Great!');
@@ -1404,6 +1410,230 @@ INSERT INTO Comments VALUES(13, 'Item came on time for me');
 INSERT INTO Comments VALUES(12, 'Maybe it is not what it seems like');
 INSERT INTO Comments VALUES(11, 'Worth noting');
 INSERT INTO Comments VALUES(10, 'Item in perfect condition');
+
+-- 410
+INSERT INTO Comments VALUES(1, 'I liked it!');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Useful product!');
+INSERT INTO Comments VALUES(1, 'Item was delivered early!');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(1, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(1, 'Item in perfect condition');
+INSERT INTO Comments VALUES(1, 'Item in perfect condition');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+
+INSERT INTO Comments VALUES(1, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(1, 'Useful product!');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Great!');
+INSERT INTO Comments VALUES(1, 'I liked it!');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+INSERT INTO Comments VALUES(1, 'Good!');
+INSERT INTO Comments VALUES(1, 'I liked it!');
+
+INSERT INTO Comments VALUES(1, 'I liked it!');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Useful product!');
+INSERT INTO Comments VALUES(1, 'Item was delivered early!');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(1, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(1, 'Item in perfect condition');
+INSERT INTO Comments VALUES(1, 'Item in perfect condition');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+
+INSERT INTO Comments VALUES(1, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(1, 'Useful product!');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Great!');
+INSERT INTO Comments VALUES(1, 'I liked it!');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+INSERT INTO Comments VALUES(1, 'Good!');
+INSERT INTO Comments VALUES(1, 'I liked it!');
+
+INSERT INTO Comments VALUES(1, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(1, 'Useful product!');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Great!');
+INSERT INTO Comments VALUES(1, 'I liked it!');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+INSERT INTO Comments VALUES(1, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(1, 'Item in good condition');
+INSERT INTO Comments VALUES(1, 'Good!');
+INSERT INTO Comments VALUES(1, 'I liked it!');
+
+--460
+INSERT INTO Comments VALUES(2, 'I liked it!');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Useful product!');
+INSERT INTO Comments VALUES(2, 'Item was delivered early!');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(2, 'Item in perfect condition');
+INSERT INTO Comments VALUES(2, 'Item in perfect condition');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(2, 'Useful product!');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Great!');
+INSERT INTO Comments VALUES(2, 'I liked it!');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+INSERT INTO Comments VALUES(2, 'Good!');
+INSERT INTO Comments VALUES(2, 'I liked it!');
+
+INSERT INTO Comments VALUES(2, 'I liked it!');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Useful product!');
+INSERT INTO Comments VALUES(2, 'Item was delivered early!');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(2, 'Item in perfect condition');
+INSERT INTO Comments VALUES(2, 'Item in perfect condition');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(2, 'Useful product!');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Great!');
+INSERT INTO Comments VALUES(2, 'I liked it!');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+INSERT INTO Comments VALUES(2, 'Good!');
+INSERT INTO Comments VALUES(2, 'I liked it!');
+
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(2, 'Useful product!');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Great!');
+INSERT INTO Comments VALUES(2, 'I liked it!');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+INSERT INTO Comments VALUES(2, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(2, 'Item in good condition');
+INSERT INTO Comments VALUES(2, 'Good!');
+INSERT INTO Comments VALUES(2, 'I liked it!');
+
+--510
+INSERT INTO Comments VALUES(3, 'I liked it!');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Useful product!');
+INSERT INTO Comments VALUES(3, 'Item was delivered early!');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(3, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(3, 'Item in perfect condition');
+INSERT INTO Comments VALUES(3, 'Item in perfect condition');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+
+INSERT INTO Comments VALUES(3, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(3, 'Useful product!');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Great!');
+INSERT INTO Comments VALUES(3, 'I liked it!');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+INSERT INTO Comments VALUES(3, 'Good!');
+INSERT INTO Comments VALUES(3, 'I liked it!');
+
+INSERT INTO Comments VALUES(3, 'I liked it!');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Useful product!');
+INSERT INTO Comments VALUES(3, 'Item was delivered early!');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(3, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(3, 'Item in perfect condition');
+INSERT INTO Comments VALUES(3, 'Item in perfect condition');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+
+INSERT INTO Comments VALUES(3, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(3, 'Useful product!');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Great!');
+INSERT INTO Comments VALUES(3, 'I liked it!');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+INSERT INTO Comments VALUES(3, 'Good!');
+INSERT INTO Comments VALUES(3, 'I liked it!');
+
+INSERT INTO Comments VALUES(3, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(3, 'Useful product!');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Great!');
+INSERT INTO Comments VALUES(3, 'I liked it!');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+INSERT INTO Comments VALUES(3, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(3, 'Item in good condition');
+INSERT INTO Comments VALUES(3, 'Good!');
+INSERT INTO Comments VALUES(3, 'I liked it!');
+
+--560
+INSERT INTO Comments VALUES(4, 'I liked it!');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Useful product!');
+INSERT INTO Comments VALUES(4, 'Item was delivered early!');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(4, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(4, 'Item in perfect condition');
+INSERT INTO Comments VALUES(4, 'Item in perfect condition');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+
+INSERT INTO Comments VALUES(4, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(4, 'Useful product!');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Great!');
+INSERT INTO Comments VALUES(4, 'I liked it!');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+INSERT INTO Comments VALUES(4, 'Good!');
+INSERT INTO Comments VALUES(4, 'I liked it!');
+
+INSERT INTO Comments VALUES(4, 'I liked it!');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Useful product!');
+INSERT INTO Comments VALUES(4, 'Item was delivered early!');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(4, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(4, 'Item in perfect condition');
+INSERT INTO Comments VALUES(4, 'Item in perfect condition');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+
+INSERT INTO Comments VALUES(4, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(4, 'Useful product!');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Great!');
+INSERT INTO Comments VALUES(4, 'I liked it!');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+INSERT INTO Comments VALUES(4, 'Good!');
+INSERT INTO Comments VALUES(4, 'I liked it!');
+
+INSERT INTO Comments VALUES(4, 'Buying it was a good decision');
+INSERT INTO Comments VALUES(4, 'Useful product!');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Great!');
+INSERT INTO Comments VALUES(4, 'I liked it!');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+INSERT INTO Comments VALUES(4, 'I regret buying it but I guess it is okay');
+INSERT INTO Comments VALUES(4, 'Item in good condition');
+INSERT INTO Comments VALUES(4, 'Good!');
+INSERT INTO Comments VALUES(4, 'I liked it!');
 
 INSERT INTO Comments_on_Comments VALUES(391, 1);
 INSERT INTO Comments_on_Comments VALUES(392, 5);

@@ -1,5 +1,5 @@
 -- Question 1
-SELECT 	product_name AS "Product", AVG(price) AS 'Avg Price'
+SELECT 	product_name AS "Product", ROUND(AVG(price),2) AS 'Avg Price'
 FROM 	Price_History
 WHERE 	product_name = 'iPhone XS' AND
 start_date >= '2018-08-01' AND
@@ -10,7 +10,7 @@ GROUP BY 	product_name;
 SELECT product_name, ROUND(AVG(Cast(rating as Float)),2) AS num_ratings
 FROM Review
 GROUP BY product_name
-HAVING COUNT(CASE rating WHEN 5 THEN 1 ELSE NULL END) >= 20
+HAVING COUNT(CASE rating WHEN 5 THEN 1 ELSE NULL END) >= 100
 ORDER BY num_ratings ASC;
 
 -- Question 3
