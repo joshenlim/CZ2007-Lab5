@@ -26,7 +26,7 @@ INSERT INTO Comments VALUES(1, 'Great!');
 INSERT INTO Comments VALUES(1, 'Great product');
 INSERT INTO Comments VALUES(1, 'It was in perfect condition'); -- conc 5
 
-INSERT INTO Comments VALUES(2, 'Buying it was a good decision'); 
+INSERT INTO Comments VALUES(2, 'Buying it was a good decision');
 INSERT INTO Comments VALUES(2, 'Good!');
 INSERT INTO Comments VALUES(2, 'Item came late');
 INSERT INTO Comments VALUES(2, 'Item came late');
@@ -446,7 +446,7 @@ INSERT INTO Comments VALUES(16, 'Worth considering');
 INSERT INTO Comments VALUES(15, 'Maybe it is not what it seems like');
 
 INSERT INTO Comments VALUES(14, 'Great item');
-INSERT INTO Comments VALUES(13 'Everyone should try it');
+INSERT INTO Comments VALUES(13, 'Everyone should try it');
 INSERT INTO Comments VALUES(12, 'Maybe it is not what it seems like');
 INSERT INTO Comments VALUES(11, 'Worth noting');
 INSERT INTO Comments VALUES(10, 'Worth considering');
@@ -455,7 +455,3 @@ INSERT INTO Comments VALUES(13, 'Item came on time for me');
 INSERT INTO Comments VALUES(12, 'Maybe it is not what it seems like');
 INSERT INTO Comments VALUES(11, 'Worth noting');
 INSERT INTO Comments VALUES(10, 'Item in perfect condition');
-
-
-
-
