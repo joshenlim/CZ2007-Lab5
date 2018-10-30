@@ -56,18 +56,6 @@ CREATE TABLE Comments_on_Comments (
 
 --------------------------------------------------
 
-CREATE TABLE Comments_on_Products (
-  comment_id INT NOT NULL,
-  shop_name VARCHAR(100) NOT NULL,
-  product_name VARCHAR(100) NOT NULL,
-  PRIMARY KEY (comment_id),
-  FOREIGN KEY (comment_id) REFERENCES Comments(comment_id),
-  FOREIGN KEY (product_name) REFERENCES Products(product_name),
-  FOREIGN KEY (shop_name) REFERENCES Shops(shop_name)
-);
-
---------------------------------------------------
-
 CREATE TABLE Employee (
   employee_id INT IDENTITY(1,1),
   name VARCHAR(100) NOT NULL,
