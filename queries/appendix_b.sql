@@ -7,7 +7,7 @@ end_date <= '2018-08-31'
 GROUP BY 	product_name;
 
 -- Question 2
-SELECT product_name, AVG(Cast(rating as Float)) AS num_ratings
+SELECT product_name, ROUND(AVG(Cast(rating as Float)),2) AS num_ratings
 FROM Review
 GROUP BY product_name
 HAVING COUNT(CASE rating WHEN 5 THEN 1 ELSE NULL END) >= 20
@@ -34,7 +34,9 @@ C.resolved_at)) AS Avg_Latency
 WHERE	E.employee_id = Latency.employee_id;
 
 -- Question 5
-SELECT pd.product_name, COUNT(shop_name) AS numer_of_shops
-FROM (products pd LEFT JOIN Inventory INV ON pd.product_name = INV.product_name)
-WHERE maker = 'samsung'
-GROUP BY pd.product_name
+SELECT	P.product_name AS "Product", COUNT(I.product_name) AS "No of Shops"
+FROM	Products P
+LEFT JOIN	Inventory I
+ON		P.product_name = I.product_name
+WHERE	maker LIKE 'Samsung'
+GROUP BY	P.product_name
