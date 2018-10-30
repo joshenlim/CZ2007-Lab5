@@ -464,9 +464,9 @@ INSERT INTO Order_Items VALUES(69, 'DELIVERED', '2018-08-24 13:50:49.239', 'Fami
 INSERT INTO Order_Items VALUES(69, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
 
 --order_id = 70, user_id = 1 with created_at date of 2018-8-13
-INSERT INTO Order_Items VALUES(70, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(70, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(70, 'DELIVERED', '2018-08-20 12:21:14.491', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(70, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(70, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(70, 'DELIVERED', '2018-08-22 22:50:35.865', 'iChallenger', 'iPhone X');
 INSERT INTO Order_Items VALUES(70, 'DELIVERED', '2018-08-26 16:27:37.078', 'iChallenger', 'iPhone XS');
 --order_id = 71, user_id = 1 with created_at date of 2018-8-14
@@ -474,16 +474,16 @@ INSERT INTO Order_Items VALUES(71, 'DELIVERED', '2018-08-17 01:59:09.144', 'iStu
 INSERT INTO Order_Items VALUES(71, 'DELIVERED', '2018-08-27 07:10:20.575', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(71, 'DELIVERED', '2018-08-17 13:03:03.450', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(71, 'DELIVERED', '2018-08-27 19:33:04.793', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(71, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(71, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 --order_id = 72, user_id = 1 with created_at date of 2018-8-15
 INSERT INTO Order_Items VALUES(72, 'DELIVERED', '2018-08-18 15:42:50.846', 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(72, 'DELIVERED', '2018-08-17 04:32:59.395', 'iStudio', 'iPhone XS');
-INSERT INTO Order_Items VALUES(72, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(72, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(72, 'DELIVERED', '2018-08-28 03:37:50.702', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(72, 'DELIVERED', '2018-08-28 16:57:44.495', 'Phone Buy', 'iPhone XS');
 --order_id = 73, user_id = 1 with created_at date of 2018-8-16
-INSERT INTO Order_Items VALUES(73, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(73, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(73, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(73, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(73, 'DELIVERED', '2018-08-21 22:19:22.743', 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(73, 'DELIVERED', '2018-08-25 10:09:17.447', 'iChallenger', 'iPhone X');
 INSERT INTO Order_Items VALUES(73, 'DELIVERED', '2018-08-19 11:46:12.706', 'iChallenger', 'iPhone XS');
@@ -500,35 +500,35 @@ INSERT INTO Order_Items VALUES(75, 'DELIVERED', '2018-08-30 03:35:08.402', 'iStu
 INSERT INTO Order_Items VALUES(75, 'DELIVERED', '2018-08-24 07:06:03.362', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(75, 'DELIVERED', '2018-08-19 04:22:17.957', 'Phone Buy', 'iPhone XS');
 --order_id = 76, user_id = 1 with created_at date of 2018-8-19
-INSERT INTO Order_Items VALUES(76, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XS');
+INSERT INTO Order_Items VALUES(76, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(76, 'DELIVERED', '2018-08-25 07:33:05.953', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(76, 'DELIVERED', '2018-08-20 16:23:18.118', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(76, 'DELIVERED', '2018-08-20 07:17:26.996', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(76, 'SHIPPED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(76, 'SHIPPED', NULL, 'Phone Buy', 'iPhone XR');
 --order_id = 77, user_id = 1 with created_at date of 2018-8-20
 INSERT INTO Order_Items VALUES(77, 'DELIVERED', '2018-08-29 23:50:59.353', 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(77, 'DELIVERED', '2018-08-29 09:07:28.507', 'iStudio', 'iPhone XS');
-INSERT INTO Order_Items VALUES(77, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(77, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(77, 'DELIVERED', '2018-08-25 03:58:34.587', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(77, 'DELIVERED', '2018-08-21 20:17:07.714', 'Phone Buy', 'iPhone XS');
 --order_id = 78, user_id = 1 with created_at date of 2018-8-21
-INSERT INTO Order_Items VALUES(78, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone X');
+INSERT INTO Order_Items VALUES(78, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(78, 'DELIVERED', '2018-08-22 10:48:33.313', 'iStudio', 'iPhone XS');
-INSERT INTO Order_Items VALUES(78, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(78, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(78, 'DELIVERED', '2018-08-26 09:11:49.309', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(78, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(78, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
 --order_id = 79, user_id = 1 with created_at date of 2018-8-22
 INSERT INTO Order_Items VALUES(79, 'DELIVERED', '2018-08-26 22:53:43.387', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(79, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(79, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(79, 'DELIVERED', '2018-08-31 00:42:58.981', 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(79, 'DELIVERED', '2018-08-31 05:14:16.695', 'iChallenger', 'iPhone X');
-INSERT INTO Order_Items VALUES(79, 'BEING_PROCESSED', 'NULL', 'iChallenger', 'iPhone XS');
+INSERT INTO Order_Items VALUES(79, 'BEING_PROCESSED', NULL, 'iChallenger', 'iPhone XS');
 --order_id = 80, user_id = 2 with created_at date of 2018-8-10
 INSERT INTO Order_Items VALUES(80, 'DELIVERED', '2018-08-16 03:48:35.169', 'Nubox', 'iPhone XS');
-INSERT INTO Order_Items VALUES(80, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone X');
+INSERT INTO Order_Items VALUES(80, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(80, 'DELIVERED', '2018-08-12 08:36:10.331', 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(80, 'DELIVERED', '2018-08-11 03:38:29.933', 'iStudio', 'iPhone XR');
-INSERT INTO Order_Items VALUES(80, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(80, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
 --order_id = 81, user_id = 2 with created_at date of 2018-8-11
 INSERT INTO Order_Items VALUES(81, 'DELIVERED', '2018-08-21 04:05:15.673', 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(81, 'DELIVERED', '2018-08-18 03:28:44.038', 'iStudio', 'iPhone XR');
@@ -543,27 +543,27 @@ INSERT INTO Order_Items VALUES(82, 'DELIVERED', '2018-08-21 16:29:59.104', 'Phon
 INSERT INTO Order_Items VALUES(82, 'DELIVERED', '2018-08-13 06:29:00.679', 'Phone Buy', 'iPhone XS');
 --order_id = 83, user_id = 2 with created_at date of 2018-8-13
 INSERT INTO Order_Items VALUES(83, 'DELIVERED', '2018-08-24 05:37:33.204', 'Nubox', 'iPhone XS');
-INSERT INTO Order_Items VALUES(83, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone X');
+INSERT INTO Order_Items VALUES(83, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(83, 'DELIVERED', '2018-08-20 17:02:35.168', 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(83, 'DELIVERED', '2018-08-14 18:29:42.165', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(83, 'DELIVERED', '2018-08-21 02:03:05.854', 'Phone Buy', 'iPhone X');
 --order_id = 84, user_id = 2 with created_at date of 2018-8-14
 INSERT INTO Order_Items VALUES(84, 'DELIVERED', '2018-08-31 14:08:00.412', 'Nubox', 'iPhone XS');
 INSERT INTO Order_Items VALUES(84, 'DELIVERED', '2018-08-25 07:51:27.035', 'iStudio', 'iPhone X');
-INSERT INTO Order_Items VALUES(84, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XS');
+INSERT INTO Order_Items VALUES(84, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(84, 'DELIVERED', '2018-08-20 21:01:53.712', 'iStudio', 'iPhone XR');
-INSERT INTO Order_Items VALUES(84, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(84, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
 --order_id = 85, user_id = 2 with created_at date of 2018-8-15
 INSERT INTO Order_Items VALUES(85, 'DELIVERED', '2018-08-22 15:48:29.825', 'iStudio', 'iPhone XS');
-INSERT INTO Order_Items VALUES(85, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(85, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(85, 'DELIVERED', '2018-08-30 06:55:29.219', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(85, 'DELIVERED', '2018-08-23 21:06:11.124', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(85, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(85, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 --order_id = 86, user_id = 2 with created_at date of 2018-8-16
 INSERT INTO Order_Items VALUES(86, 'DELIVERED', '2018-08-29 16:03:10.549', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(86, 'DELIVERED', '2018-08-29 16:56:22.347', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(86, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
-INSERT INTO Order_Items VALUES(86, 'BEING_PROCESSED', 'NULL', 'iChallenger', 'iPhone X');
+INSERT INTO Order_Items VALUES(86, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(86, 'BEING_PROCESSED', NULL, 'iChallenger', 'iPhone X');
 INSERT INTO Order_Items VALUES(86, 'DELIVERED', '2018-08-19 04:36:38.632', 'iChallenger', 'iPhone XS');
 --order_id = 87, user_id = 2 with created_at date of 2018-8-17
 INSERT INTO Order_Items VALUES(87, 'DELIVERED', '2018-08-18 15:11:20.105', 'Nubox', 'iPhone XS');
@@ -572,10 +572,10 @@ INSERT INTO Order_Items VALUES(87, 'DELIVERED', '2018-08-23 23:23:52.061', 'iStu
 INSERT INTO Order_Items VALUES(87, 'DELIVERED', '2018-08-22 13:26:19.534', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(87, 'DELIVERED', '2018-08-18 22:07:16.474', 'Phone Buy', 'iPhone X');
 --order_id = 88, user_id = 2 with created_at date of 2018-8-18
-INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
-INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(88, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(88, 'DELIVERED', '2018-08-29 23:27:22.803', 'iChallenger', 'iPhone X');
 --order_id = 89, user_id = 2 with created_at date of 2018-8-19
 INSERT INTO Order_Items VALUES(89, 'DELIVERED', '2018-08-28 10:21:00.222', 'Nubox', 'iPhone X');
@@ -585,7 +585,7 @@ INSERT INTO Order_Items VALUES(89, 'DELIVERED', '2018-08-26 13:27:33.721', 'iStu
 INSERT INTO Order_Items VALUES(89, 'DELIVERED', '2018-08-28 19:15:23.709', 'iStudio', 'iPhone XR');
 --order_id = 90, user_id = 3 with created_at date of 2018-8-9
 INSERT INTO Order_Items VALUES(90, 'DELIVERED', '2018-08-24 19:57:54.911', 'iStudio', 'iPhone X');
-INSERT INTO Order_Items VALUES(90, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XS');
+INSERT INTO Order_Items VALUES(90, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(90, 'DELIVERED', '2018-08-13 19:09:25.781', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(90, 'DELIVERED', '2018-08-15 09:55:03.482', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(90, 'DELIVERED', '2018-08-29 06:33:17.517', 'Phone Buy', 'iPhone XS');
@@ -593,58 +593,58 @@ INSERT INTO Order_Items VALUES(90, 'DELIVERED', '2018-08-29 06:33:17.517', 'Phon
 INSERT INTO Order_Items VALUES(91, 'DELIVERED', '2018-08-30 23:07:17.756', 'Nubox', 'iPhone XS');
 INSERT INTO Order_Items VALUES(91, 'DELIVERED', '2018-08-26 14:36:02.602', 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(91, 'DELIVERED', '2018-08-26 13:34:25.688', 'iStudio', 'iPhone XS');
-INSERT INTO Order_Items VALUES(91, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
-INSERT INTO Order_Items VALUES(91, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(91, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(91, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
 --order_id = 92, user_id = 3 with created_at date of 2018-8-11
-INSERT INTO Order_Items VALUES(92, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XS');
+INSERT INTO Order_Items VALUES(92, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(92, 'DELIVERED', '2018-08-25 02:53:08.780', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(92, 'DELIVERED', '2018-08-30 11:09:27.287', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(92, 'DELIVERED', '2018-08-14 02:17:23.664', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(92, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(92, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 --order_id = 93, user_id = 3 with created_at date of 2018-8-12
-INSERT INTO Order_Items VALUES(93, 'BEING_PROCESSED', 'NULL', 'Nubox', 'iPhone X');
-INSERT INTO Order_Items VALUES(93, 'BEING_PROCESSED', 'NULL', 'Nubox', 'iPhone XS');
+INSERT INTO Order_Items VALUES(93, 'BEING_PROCESSED', NULL, 'Nubox', 'iPhone X');
+INSERT INTO Order_Items VALUES(93, 'BEING_PROCESSED', NULL, 'Nubox', 'iPhone XS');
 INSERT INTO Order_Items VALUES(93, 'DELIVERED', '2018-08-29 01:50:46.641', 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(93, 'DELIVERED', '2018-08-25 15:37:57.510', 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(93, 'DELIVERED', '2018-08-19 03:27:43.169', 'iStudio', 'iPhone XR');
 --order_id = 94, user_id = 3 with created_at date of 2018-8-13
-INSERT INTO Order_Items VALUES(94, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(94, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(94, 'DELIVERED', '2018-08-25 03:07:44.194', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(94, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(94, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(94, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(94, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(94, 'DELIVERED', '2018-08-16 01:16:34.837', 'iChallenger', 'iPhone X');
 --order_id = 95, user_id = 3 with created_at date of 2018-8-14
-INSERT INTO Order_Items VALUES(95, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone X');
-INSERT INTO Order_Items VALUES(95, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XS');
+INSERT INTO Order_Items VALUES(95, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone X');
+INSERT INTO Order_Items VALUES(95, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(95, 'DELIVERED', '2018-08-19 23:13:36.126', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(95, 'DELIVERED', '2018-08-23 13:17:33.726', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(95, 'DELIVERED', '2018-08-18 03:00:56.508', 'Phone Buy', 'iPhone XS');
 --order_id = 96, user_id = 3 with created_at date of 2018-8-15
 INSERT INTO Order_Items VALUES(96, 'DELIVERED', '2018-08-27 13:48:23.504', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(96, 'DELIVERED', '2018-08-30 05:30:33.023', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(96, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(96, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(96, 'DELIVERED', '2018-08-26 06:05:48.639', 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(96, 'DELIVERED', '2018-08-21 15:06:41.026', 'iChallenger', 'iPhone X');
 --order_id = 97, user_id = 3 with created_at date of 2018-8-16
-INSERT INTO Order_Items VALUES(97, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(97, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(97, 'DELIVERED', '2018-08-26 20:11:09.818', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(97, 'DELIVERED', '2018-08-18 17:05:49.877', 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(97, 'DELIVERED', '2018-08-22 06:09:39.966', 'Phone Buy', 'iPhone XR');
-INSERT INTO Order_Items VALUES(97, 'BEING_PROCESSED', 'NULL', 'iChallenger', 'iPhone X');
+INSERT INTO Order_Items VALUES(97, 'BEING_PROCESSED', NULL, 'iChallenger', 'iPhone X');
 --order_id = 98, user_id = 3 with created_at date of 2018-8-17
 INSERT INTO Order_Items VALUES(98, 'DELIVERED', '2018-08-31 04:46:41.786', 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(98, 'DELIVERED', '2018-08-18 14:12:45.170', 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(98, 'DELIVERED', '2018-08-20 16:56:18.183', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(98, 'DELIVERED', '2018-08-18 19:59:28.432', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(98, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(98, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
 --order_id = 99, user_id = 3 with created_at date of 2018-8-18
-INSERT INTO Order_Items VALUES(99, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(99, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(99, 'DELIVERED', '2018-08-26 11:37:06.995', 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(99, 'DELIVERED', '2018-08-19 19:41:55.103', 'Phone Buy', 'iPhone XR');
-INSERT INTO Order_Items VALUES(99, 'BEING_PROCESSED', 'NULL', 'iChallenger', 'iPhone X');
+INSERT INTO Order_Items VALUES(99, 'BEING_PROCESSED', NULL, 'iChallenger', 'iPhone X');
 INSERT INTO Order_Items VALUES(99, 'DELIVERED', '2018-08-22 18:25:14.536', 'iChallenger', 'iPhone XS');
 --order_id = 100, user_id = 4 with created_at date of 2018-8-7
-INSERT INTO Order_Items VALUES(100, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone X');
+INSERT INTO Order_Items VALUES(100, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(100, 'DELIVERED', '2018-08-14 22:41:52.298', 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(100, 'DELIVERED', '2018-08-22 06:16:13.729', 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(100, 'DELIVERED', '2018-08-08 14:46:58.385', 'iChallenger', 'iPhone X');
@@ -654,13 +654,13 @@ INSERT INTO Order_Items VALUES(101, 'DELIVERED', '2018-08-12 18:07:39.795', 'iSt
 INSERT INTO Order_Items VALUES(101, 'DELIVERED', '2018-08-09 20:27:39.546', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(101, 'DELIVERED', '2018-08-11 03:29:19.879', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(101, 'DELIVERED', '2018-08-29 11:45:24.323', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(101, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(101, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 --order_id = 102, user_id = 4 with created_at date of 2018-8-9
 INSERT INTO Order_Items VALUES(102, 'DELIVERED', '2018-08-17 23:32:25.787', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(102, 'DELIVERED', '2018-08-30 14:18:45.288', 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(102, 'DELIVERED', '2018-08-10 23:40:55.411', 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(102, 'DELIVERED', '2018-08-31 06:01:44.069', 'iChallenger', 'iPhone X');
-INSERT INTO Order_Items VALUES(102, 'BEING_PROCESSED', 'NULL', 'iChallenger', 'iPhone XS');
+INSERT INTO Order_Items VALUES(102, 'BEING_PROCESSED', NULL, 'iChallenger', 'iPhone XS');
 --order_id = 103, user_id = 4 with created_at date of 2018-8-10
 INSERT INTO Order_Items VALUES(103, 'DELIVERED', '2018-08-11 11:41:04.543', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(103, 'DELIVERED', '2018-08-15 23:11:49.571', 'Phone Buy', 'iPhone X');
@@ -668,10 +668,10 @@ INSERT INTO Order_Items VALUES(103, 'DELIVERED', '2018-08-24 19:23:20.222', 'Pho
 INSERT INTO Order_Items VALUES(103, 'DELIVERED', '2018-08-14 14:20:00.404', 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(103, 'DELIVERED', '2018-08-27 20:37:52.697', 'iChallenger', 'iPhone X');
 --order_id = 104, user_id = 4 with created_at date of 2018-8-11
-INSERT INTO Order_Items VALUES(104, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(104, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(104, 'DELIVERED', '2018-08-29 06:33:32.099', 'Phone Buy', 'iPhone X');
 INSERT INTO Order_Items VALUES(104, 'DELIVERED', '2018-08-13 09:51:42.434', 'Phone Buy', 'iPhone XS');
-INSERT INTO Order_Items VALUES(104, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XR');
+INSERT INTO Order_Items VALUES(104, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(104, 'DELIVERED', '2018-08-13 09:51:08.273', 'iChallenger', 'iPhone X');
 --order_id = 105, user_id = 4 with created_at date of 2018-8-12
 INSERT INTO Order_Items VALUES(105, 'DELIVERED', '2018-08-18 12:46:59.336', 'iStudio', 'iPhone XR');
@@ -686,20 +686,20 @@ INSERT INTO Order_Items VALUES(106, 'DELIVERED', '2018-08-29 08:49:20.406', 'iSt
 INSERT INTO Order_Items VALUES(106, 'DELIVERED', '2018-08-17 14:20:35.582', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(106, 'DELIVERED', '2018-08-19 21:47:19.995', 'Phone Buy', 'iPhone X');
 --order_id = 107, user_id = 4 with created_at date of 2018-8-14
-INSERT INTO Order_Items VALUES(107, 'BEING_PROCESSED', 'NULL', 'Nubox', 'iPhone XS');
+INSERT INTO Order_Items VALUES(107, 'BEING_PROCESSED', NULL, 'Nubox', 'iPhone XS');
 INSERT INTO Order_Items VALUES(107, 'DELIVERED', '2018-08-19 07:52:00.226', 'iStudio', 'iPhone X');
-INSERT INTO Order_Items VALUES(107, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XS');
+INSERT INTO Order_Items VALUES(107, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XS');
 INSERT INTO Order_Items VALUES(107, 'DELIVERED', '2018-08-15 01:32:43.247', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(107, 'DELIVERED', '2018-08-22 12:19:56.593', 'Phone Buy', 'iPhone X');
 --order_id = 108, user_id = 4 with created_at date of 2018-8-15
 INSERT INTO Order_Items VALUES(108, 'DELIVERED', '2018-08-27 06:20:25.682', 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(108, 'DELIVERED', '2018-08-21 00:42:17.964', 'Phone Buy', 'iPhone X');
-INSERT INTO Order_Items VALUES(108, 'BEING_PROCESSED', 'NULL', 'Phone Buy', 'iPhone XS');
+INSERT INTO Order_Items VALUES(108, 'BEING_PROCESSED', NULL, 'Phone Buy', 'iPhone XS');
 INSERT INTO Order_Items VALUES(108, 'DELIVERED', '2018-08-23 14:00:57.600', 'Phone Buy', 'iPhone XR');
 INSERT INTO Order_Items VALUES(108, 'DELIVERED', '2018-08-26 04:10:22.498', 'iChallenger', 'iPhone X');
 --order_id = 109, user_id = 4 with created_at date of 2018-8-16
-INSERT INTO Order_Items VALUES(109, 'BEING_PROCESSED', 'NULL', 'Nubox', 'iPhone XS');
+INSERT INTO Order_Items VALUES(109, 'BEING_PROCESSED', NULL, 'Nubox', 'iPhone XS');
 INSERT INTO Order_Items VALUES(109, 'DELIVERED', '2018-08-17 15:03:25.140', 'iStudio', 'iPhone X');
 INSERT INTO Order_Items VALUES(109, 'DELIVERED', '2018-08-23 15:28:27.430', 'iStudio', 'iPhone XS');
-INSERT INTO Order_Items VALUES(109, 'BEING_PROCESSED', 'NULL', 'iStudio', 'iPhone XR');
+INSERT INTO Order_Items VALUES(109, 'BEING_PROCESSED', NULL, 'iStudio', 'iPhone XR');
 INSERT INTO Order_Items VALUES(109, 'DELIVERED', '2018-08-29 05:28:04.775', 'Phone Buy', 'iPhone X');
