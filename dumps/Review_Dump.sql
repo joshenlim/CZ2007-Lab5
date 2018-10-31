@@ -105,7 +105,7 @@ INSERT INTO Review VALUES(9, 8, 'Phone Buy', 'iPhone XR', 5, 88, '2018-06-29 19:
 INSERT INTO Review VALUES(9, 8, 'iChallenger', 'iPhone X', 5, 89, '2018-06-30 00:03:57.521');
 INSERT INTO Review VALUES(9, 8, 'iChallenger', 'iPhone XS', 5, 90, '2018-06-22 18:46:12.325');
 --order_id = 10, user_id = 9 with created_at date of 2018-8-2
-INSERT INTO Review VALUES(10, 9, 'Phone Buy', 'iPhone X', 4, 91, '2018-08-22 13:36:27.645');
+INSERT INTO Review VALUES(10, 9, 'Phone Buy', 'iPhone X', 5, 91, '2018-08-22 13:36:27.645');
 INSERT INTO Review VALUES(10, 9, 'Phone Buy', 'iPhone XS', 1, 92, '2018-08-08 06:12:14.864');
 INSERT INTO Review VALUES(10, 9, 'Phone Buy', 'iPhone XR', 5, 93, '2018-08-20 13:17:05.021');
 INSERT INTO Review VALUES(10, 9, 'iChallenger', 'iPhone X', 5, 94, '2018-08-21 01:08:12.193');
@@ -151,7 +151,7 @@ INSERT INTO Review VALUES(17, 9, 'Phone Buy', 'iPhone X', 5, 126, '2018-08-21 12
 INSERT INTO Review VALUES(17, 9, 'Phone Buy', 'iPhone XS', 5, 127, '2018-08-26 22:51:08.265');
 INSERT INTO Review VALUES(17, 9, 'Phone Buy', 'iPhone XR', 5, 128, '2018-08-30 08:39:48.648');
 INSERT INTO Review VALUES(17, 9, 'iChallenger', 'iPhone X', 5, 129, '2018-08-10 15:53:26.773');
-INSERT INTO Review VALUES(17, 9, 'iChallenger', 'iPhone XS', 2, 130, '2018-08-09 03:49:33.426');
+INSERT INTO Review VALUES(17, 9, 'iChallenger', 'iPhone XS', 5, 130, '2018-08-09 03:49:33.426');
 --order_id = 18, user_id = 10 with created_at date of 2018-8-5
 INSERT INTO Review VALUES(18, 10, 'Royal Sporting House', 'KAVAL Cap', 5, 131, '2018-08-15 22:04:47.987');
 INSERT INTO Review VALUES(18, 10, 'Adidas', 'Ultraboost Shoes', 5, 132, '2018-08-07 09:09:30.964');
@@ -197,7 +197,7 @@ INSERT INTO Review VALUES(24, 10, 'Nubox', 'Galaxy S6', 5, 165, '2018-08-31 10:0
 --order_id = 25, user_id = 10 with created_at date of 2018-8-9
 INSERT INTO Review VALUES(25, 10, 'Family House','Quickdrive Washing Machine', 3, 166, '2018-08-18 22:30:45.713');
 INSERT INTO Review VALUES(25, 10, 'Family House','Ecobubble Washing Machine', 3, 167, '2018-08-11 03:42:41.231');
-INSERT INTO Review VALUES(25, 10, 'Phone Buy', 'iPhone X', 4, 168, '2018-08-28 03:49:06.924');
+INSERT INTO Review VALUES(25, 10, 'Phone Buy', 'iPhone X', 5, 168, '2018-08-28 03:49:06.924');
 INSERT INTO Review VALUES(25, 10, 'Phone Buy', 'iPhone XS', 5, 169, '2018-08-24 19:30:50.096');
 INSERT INTO Review VALUES(25, 10, 'Phone Buy', 'iPhone XR', 5, 170, '2018-08-16 04:15:49.283');
 --order_id = 26, user_id = 11 with created_at date of 2018-8-9
@@ -213,8 +213,8 @@ INSERT INTO Review VALUES(27, 11, 'Family House','Quickdrive Washing Machine', 5
 INSERT INTO Review VALUES(27, 11, 'Family House','Ecobubble Washing Machine', 5, 179, '2018-08-17 22:03:26.389');
 INSERT INTO Review VALUES(27, 11, 'Phone Buy', 'iPhone X', 5, 180, '2018-08-20 14:46:15.268');
 --order_id = 28, user_id = 11 with created_at date of 2018-8-11
-INSERT INTO Review VALUES(28, 11, 'Nubox', 'iPhone X', 4, 181, '2018-08-25 06:16:39.388');
-INSERT INTO Review VALUES(28, 11, 'Nubox', 'iPhone XS', 3, 182, '2018-08-21 02:20:00.197');
+INSERT INTO Review VALUES(28, 11, 'Nubox', 'iPhone X', 5, 181, '2018-08-25 06:16:39.388');
+INSERT INTO Review VALUES(28, 11, 'Nubox', 'iPhone XS', 5, 182, '2018-08-21 02:20:00.197');
 INSERT INTO Review VALUES(28, 11, 'Nubox', 'Galaxy S9', 5, 183, '2018-08-19 02:44:12.838');
 INSERT INTO Review VALUES(28, 11, 'Nubox', 'Galaxy S7', 5, 184, '2018-08-24 11:30:45.981');
 INSERT INTO Review VALUES(28, 11, 'Nubox', 'Galaxy S6', 2, 185, '2018-08-13 22:51:27.917');
@@ -501,11 +501,11 @@ INSERT INTO Review VALUES(75, 1, 'iStudio', 'iPhone X', 5, 436, '2018-08-31 12:5
 INSERT INTO Review VALUES(75, 1, 'iStudio', 'iPhone XS', 5, 437, '2018-08-24 14:36:53.476');
 INSERT INTO Review VALUES(75, 1, 'iStudio', 'iPhone XR', 5, 438, '2018-08-25 07:48:46.552');
 INSERT INTO Review VALUES(75, 1, 'Phone Buy', 'iPhone X', 2, 439, '2018-08-23 10:08:56.834');
-INSERT INTO Review VALUES(75, 1, 'Phone Buy', 'iPhone XS', 3, 440, '2018-08-20 13:25:38.653');
+INSERT INTO Review VALUES(75, 1, 'Phone Buy', 'iPhone XS', 5, 440, '2018-08-20 13:25:38.653');
 --order_id = 76, user_id = 1 with created_at date of 2018-8-19
 INSERT INTO Review VALUES(76, 1, 'iStudio', 'iPhone XS', 5, 441, '2018-08-28 07:31:47.788');
 INSERT INTO Review VALUES(76, 1, 'iStudio', 'iPhone XR', 5, 442, '2018-08-31 17:10:29.821');
-INSERT INTO Review VALUES(76, 1, 'Phone Buy', 'iPhone X', 4, 443, '2018-08-20 07:18:33.047');
+INSERT INTO Review VALUES(76, 1, 'Phone Buy', 'iPhone X', 5, 443, '2018-08-20 07:18:33.047');
 INSERT INTO Review VALUES(76, 1, 'Phone Buy', 'iPhone XS', 5, 444, '2018-08-29 14:14:15.691');
 INSERT INTO Review VALUES(76, 1, 'Phone Buy', 'iPhone XR', 1, 445, '2018-08-30 00:08:35.446');
 --order_id = 77, user_id = 1 with created_at date of 2018-8-20
@@ -602,7 +602,7 @@ INSERT INTO Review VALUES(91, 3, 'Phone Buy', 'iPhone X', 5, 520, '2018-08-17 13
 INSERT INTO Review VALUES(92, 3, 'iStudio', 'iPhone XS', 5, 521, '2018-08-12 08:28:58.956');
 INSERT INTO Review VALUES(92, 3, 'iStudio', 'iPhone XR', 5, 522, '2018-08-30 02:38:50.741');
 INSERT INTO Review VALUES(92, 3, 'Phone Buy', 'iPhone X', 1, 523, '2018-08-12 03:44:26.373');
-INSERT INTO Review VALUES(92, 3, 'Phone Buy', 'iPhone XS', 3, 524, '2018-08-25 22:16:45.768');
+INSERT INTO Review VALUES(92, 3, 'Phone Buy', 'iPhone XS', 5, 524, '2018-08-25 22:16:45.768');
 INSERT INTO Review VALUES(92, 3, 'Phone Buy', 'iPhone XR', 5, 525, '2018-08-23 20:22:43.798');
 --order_id = 93, user_id = 3 with created_at date of 2018-8-12
 INSERT INTO Review VALUES(93, 3, 'Nubox', 'iPhone X', 5, 526, '2018-08-28 22:32:35.779');
@@ -625,7 +625,7 @@ INSERT INTO Review VALUES(95, 3, 'Phone Buy', 'iPhone XS', 5, 540, '2018-08-24 0
 --order_id = 96, user_id = 3 with created_at date of 2018-8-15
 INSERT INTO Review VALUES(96, 3, 'iStudio', 'iPhone XR', 5, 541, '2018-08-30 21:00:46.390');
 INSERT INTO Review VALUES(96, 3, 'Phone Buy', 'iPhone X', 5, 542, '2018-08-26 06:27:40.949');
-INSERT INTO Review VALUES(96, 3, 'Phone Buy', 'iPhone XS', 3, 543, '2018-08-17 16:33:48.999');
+INSERT INTO Review VALUES(96, 3, 'Phone Buy', 'iPhone XS', 5, 543, '2018-08-17 16:33:48.999');
 INSERT INTO Review VALUES(96, 3, 'Phone Buy', 'iPhone XR', 4, 544, '2018-08-27 13:38:28.315');
 INSERT INTO Review VALUES(96, 3, 'iChallenger', 'iPhone X', 5, 545, '2018-08-26 12:44:52.333');
 --order_id = 97, user_id = 3 with created_at date of 2018-8-16
@@ -639,7 +639,7 @@ INSERT INTO Review VALUES(98, 3, 'iStudio', 'iPhone X', 5, 551, '2018-08-25 16:2
 INSERT INTO Review VALUES(98, 3, 'iStudio', 'iPhone XS', 5, 552, '2018-08-25 21:51:36.674');
 INSERT INTO Review VALUES(98, 3, 'iStudio', 'iPhone XR', 5, 553, '2018-08-30 19:13:21.705');
 INSERT INTO Review VALUES(98, 3, 'Phone Buy', 'iPhone X', 5, 554, '2018-08-18 22:07:27.694');
-INSERT INTO Review VALUES(98, 3, 'Phone Buy', 'iPhone XS', 3, 555, '2018-08-31 02:59:00.136');
+INSERT INTO Review VALUES(98, 3, 'Phone Buy', 'iPhone XS', 5, 555, '2018-08-31 02:59:00.136');
 --order_id = 99, user_id = 3 with created_at date of 2018-8-18
 INSERT INTO Review VALUES(99, 3, 'Phone Buy', 'iPhone X', 5, 556, '2018-08-25 10:46:18.187');
 INSERT INTO Review VALUES(99, 3, 'Phone Buy', 'iPhone XS', 5, 557, '2018-08-20 02:03:55.199');
@@ -702,7 +702,7 @@ INSERT INTO Review VALUES(108, 4, 'Phone Buy', 'iPhone XR', 5, 604, '2018-08-17 
 INSERT INTO Review VALUES(108, 4, 'iChallenger', 'iPhone X', 5, 605, '2018-08-26 10:58:14.266');
 --order_id = 109, user_id = 4 with created_at date of 2018-8-16
 INSERT INTO Review VALUES(109, 4, 'Nubox', 'iPhone XS', 5, 606, '2018-08-21 00:02:57.435');
-INSERT INTO Review VALUES(109, 4, 'iStudio', 'iPhone X', 5, 607, '2018-08-17 17:05:01.086');
-INSERT INTO Review VALUES(109, 4, 'iStudio', 'iPhone XS', 2, 608, '2018-08-18 21:11:50.871');
+INSERT INTO Review VALUES(109, 4, 'iStudio', 'iPhone X', 5, 607, '2018-08-16 17:05:01.086');
+INSERT INTO Review VALUES(109, 4, 'iStudio', 'iPhone XS', 5, 608, '2018-08-18 21:11:50.871');
 INSERT INTO Review VALUES(109, 4, 'iStudio', 'iPhone XR', 5, 609, '2018-08-25 18:06:58.856');
 INSERT INTO Review VALUES(109, 4, 'Phone Buy', 'iPhone X', 5, 610, '2018-08-30 06:35:23.811');
